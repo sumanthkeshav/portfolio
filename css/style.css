@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5em;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.fa-facebook-official {
+    font-size: 3em !important;
+    color: #3b5998;
+}
+
+.fa-linkedin-square {
+    font-size: 3em !important;
+    color: #287bbc;
+}
+
+.fa-twitter-square {
+    font-size: 3em !important;
+    color: #1b95e0;
+}
+
+.fa-envelope-o {
+    font-size: 3em !important;
+    color: #d14836;
+}
+
+ul.tools,
+ul.lang,
+ul.hobbies {
+    margin: 0;
+}
+
+ul.tools li,
+ul.hobbies li {
+    list-style: none;
+    display: inline-block;
+    background-size: 500px;
+    margin-left: 17px;
+}
+
+span.title {
+    font-family: 'Sacramento', cursive !important;
+    text-transform: none;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    padding-top: 10px;
+}
+
+.bg-2 {
+    background-color: #1E0F21;
+    /* Dark Blue */
+    color: #ffffff;
+    margin: 0 px;
+}
+
+.profile-img {
+    margin-bottom: 15px;
+    width: 180px;
+}
+
+.about {
+    background-color: #1E0F21;
+    /* Dark Blue */
+    color: #6D636F;
+    margin: 0 px;
+    /* padding: 10% 0 10% 0; */
+}
+
+.about h2 {
+    color: #25b79f;
+}
+
+.about.top {
+    padding: 15% 0 10% 0;
+    height: 100vh;
+    display: flex;
+    background-color: #25b79f;
+}
+
+.about.bottom {
+    padding: 10% 0 10% 0;
+}
+
+.about,
+.about-info,
+.about-tools,
+.about-last {
+    padding: 2% 10% 1% 10%;
+    font-size: 1.25em;
+}
+
+.about-tools {
+    padding-top: 4.375em;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 992px) {
+    .about-tools {
+        padding-top: 5.625em;
+    }
+}
+
+.about-tools ul:first-child {
+    padding-left: 0px;
+}
+
+.about-tools ul {
+    color: #ffffff;
+    list-style: none;
+}
+
+.about-tools ul li {
+    padding-top: 0.75em;
+}
+
+.about-last {
+    padding-top: 3.125em;
+    padding-bottom: 0;
+    font-size: 1.125em;
+}
+
+@media screen and (min-width: 992px) {
+    .about-last {
+        padding-top: 0;
+    }
+}
+
+.about-last p {
+    color: #25b79f;
+}
+
+.col-xs-6 {
+    width: 50%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.contact {
+    background-image: url(../img/colab3.jpg);
+    color: #ffffff;
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0%;
+    width: 100%;
+    padding: 10px;
+}
+
+.sayhello {
+    background: #1E0F21;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    border-right: 20px;
+    border-left: 20px;
+    margin: 0 px;
+    width: 100%;
+}
+
+
+/* .about {
+    background-color: #1E0F21;
+    /* Dark Blue 
+    color: #6D636F;
+margin: 0 px;
+padding: 10% 0 10% 0;
+
+} */
+
+.sayhello h1 {
+    color: #000;
+    font-family: 'ProximaNovaT';
+    font-size: 65px;
+}
+
+.sayhello p {
+    color: #848484;
+    margin: 0 auto;
+    font-size: 17px;
+    margin-left: 4px;
+}
+
+.sayhello ul.icons {
+    margin: 0;
+    padding: 0;
+    float: right;
+    line-height: 0;
+}
+
+.sayhello ul.icons li {
+    display: inline-block;
+    -webkit-transition: all .35s ease;
+    -moz-transition: all .35s ease;
+    transition: all .35s ease;
+    margin: 30px 0px 20px 0px;
+    margin-left: 20px;
+}
+
+.sayhello .icon span.SocailLink {
+    display: block;
+    font-size: 12px;
+    text-shadow: none;
+    color: #333;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.sayhello .icon.dribbble,
+.sayhello .icon.behance,
+.sayhello .icon.behance,
+.sayhello .icon.twitter,
+.sayhello .icon.facebook {
+    -webkit-transition: all .35s ease;
+    -moz-transition: all .35s ease;
+    transition: all .35s ease;
+}
+
+.sayhello .icon.dribbble {
+    color: #848484;
+    font-size: 30px;
+}
+
+.sayhello .icon.dribbble:hover {
+    color: #F66699;
+}
+
+.sayhello .icon.behance {
+    color: #848484;
+    font-size: 30px;
+}
+
+.sayhello .icon.behance:hover {
+    color: #339cd5;
+}
+
+.sayhello .icon.twitter {
+    color: #848484;
+    font-size: 30px;
+}
+
+.sayhello .icon.twitter:hover {
+    color: #3AB6E8;
+}
+
+.sayhello .icon.facebook {
+    color: #848484;
+    font-size: 29px;
+}
+
+.sayhello .icon.facebook:hover {
+    color: #3b5998;
+}
+
+.sayhello p.credits,
+.sayhello p.made {
+    font-size: 12px;
+    text-align: right;
+}
+
+.fa-heart {
+    color: red;
+    font-size: 15px;
+}
+
+.footTitle {
+    font-family: 'Sacramento', cursive;
+    text-transform: none;
+    font-weight: 400;
+    color: #41b0bf !important;
+    font-size: 3em !important;
+}
+
+.pad10 {
+    padding: 10px;
+}
+
+:root {
+    --color-one: #e6e6ff;
+    --color-two: #1a1aff;
+    --color-three: #b3b3ff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    background-color: var(--color-one);
+    font-size: 0.95em;
+    color: #222;
+}
+
+.contain {
+    margin: 0;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* background-color: #130A15; */
+    background-image: url(/img/fireplace.png);
+}
+
+.card {
+    border: 1px solid var(--color-three);
+    margin: 20px;
+    transition: border 0.1s, transform 0.3s;
+    padding: 10px;
+}
+
+.card:hover {
+    border: 1px solid var(--color-two);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.card .card-body h2 {
+    color: var(--color-two);
+}
+
+.card img:hover {
+    opacity: 0.6;
+}
+
+.card-p {
+    color: var(--color-three);
+}
+
+.card-p i {
+    color: var(--color-two);
+    margin-right: 8px;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+}
+
+.madewithlove {
+    margin: 0 auto;
+}
+
+.col-xs-12 {
+    width: 50%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: auto;
+    padding-left: auto;
+}

@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<link rel="stylesheet" href="css/style.css">
+
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <style>
+        .jumbotron {
+            background-image: url(img/coloudo.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #cccccc;
+            background-position: center;
+            margin-bottom: 0%;
+            margin-block: 0px;
+            overflow: hidden;
+            position: relative;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        .row {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+            max-width: 62.5em;
+        }
+    </style>
+    <title>Sumanth Keshav</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/photop.png" width="30" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#about">About Me</a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <a name="home">
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1>
+                    <span style=font-family:Sacramento !important; text-transform:none; font-weight:400; color:06E5EA;
+                        font-size:3em; padding-top: 10px; class="title">Sumanth Keshav</span>
+                </h1>
+
+
+
+                <h1 class="jumbotron-heading" style="font-family:Arial, Helvetica, sans-serif; color:white; ">I am <span
+                        id="typed" style="font-weight: bold;"></span></h1>
+                <ul class=" tools " style="padding-top: 120px;">
+
+                    </li>
+                    <li><a href="#" target="_blank "><i class="fa fa-linkedin-square "></i></a>
+                    </li>
+                    <li><a href="#" target="_blank "><i class="fa fa-envelope-o "></i></a></li>
+                    <li><a href="#" target="_blank "><i class="fa fa-facebook-official "></i></a>
+                </ul>
+        </section>
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js " async defer></script>
+    <script>
+        window.onload = function () {
+            console.log("loaded ")
+            var typed = new Typed('#typed', {
+                strings: ["a hustler", "a finance enthusiast ", "an aspiring entrepreneur ", "a web designer in making"],
+                backSpeed: 30,
+                smartBackspace: false,
+                backDelay: 1600,
+                startDelay: 1000,
+                typeSpeed: 40,
+                loop: true,
+            });
+        };
+    </script>
+
+    <!-- <section>
+        <div class="Aboutme">
+            <div class="container-fluid bg-2 text-center">
+                <h3>About Me</h3>
+                <p>Lorem ipsum..</p>
+            </div>
+        </div>
+    </section> -->
+    <a name="about">
+        <div class="about">
+            <h2 class="text-center">About Me</h2>
+            <div class="row">
+                <div class="col-md-6 text-center about-info">
+                    <img class="img-circle text-center profile-img" src="img/photop.png">
+                    <p class="text-center">I'm an undergrad student from BITS Pilani University persuing a double major
+                        in Computer Science and Economics. I'm an inquisitive person and would love to connect with like
+                        minded people. Anything about personal finance or investing
+                        would be a great ice breaker!</p>
+                </div>
+                <div class="col-md-6 about-tools">
+                    <p class="text-center">Skills and Languages</p>
+                    <div class="col-xs-12  col-sm-6">
+                        <ul>
+                            <li>Data Structures</li>
+                            <li>Databases</li>
+                            <li>OOPs</li>
+                            <li>HTML</li>
+                            <li>CSS3</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12  col-sm-6">
+                        <ul>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>Git</li>
+                            <li>R Programming</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </a>
+    <!-- End #About -->
+
+    <a name="projects">
+        <div class="contain" style="background-color: #DBC9EF;">
+            <h2 class="h1-responsive font-weight-bold pad10 text-center" style="color: #1E0F21;">Projects</h2>
+            <div class="row">
+                <!-- <a href="www.google.com"> -->
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card shadow">
+                            <img src="img/mve_rec.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">Movie Recommender System</h3>
+                                <p class="card-text">Built a recommendation system using Collaborative and Content-based
+                                    Filtering approaches. Technologies Used: Python, Pandas and NumPy.</p>
+                            </div>
+                            <!-- <div class="card-body card-p">
+                            <div class="row">
+                            <div class="col col-xs-4 ">
+                                <i class="far fa-comments"></i> 456
+                            </div>
+                            <div class="col col-xs-4 ">
+                                <i class="far fa-heart"></i> 2.4k
+                            </div>
+                            <div class="col col-xs-4">
+                                <i class="fas fa-share"></i> 99
+                            </div>
+                        </div>
+                        </div> -->
+                        </div>
+                    </div>
+                <!-- </a> -->
+
+                <!-- <a href="www.facebook.com"> -->
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card shadow">
+                        <img src="img/aws.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">AWS micro webserive Hosting</h3>
+                            <p class="card-text">Set up AWS EC2 web server and configure different services through
+                                Virtual Hosting and Mysql as DB Host setup.</p>
+                        </div>
+                        <!-- <div class="card-body card-p">
+                            <div class="row">
+                                <div class="col col-xs-4 ">
+                                    <i class="far fa-comments"></i> 1.9k
+                                </div>
+                                <div class="col col-xs-4 ">
+                                    <i class="far fa-heart"></i> 2k
+                                </div>
+                                <div class="col col-xs-4">
+                                    <i class="fas fa-share"></i> 306
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- </a> -->
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card shadow">
+                        <img src="img/taxi-booking-app.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Cab Booking Application in JAVA</h3>
+                            <p class="card-text">Developed a cab booking desktop application in Java. Apart from ride
+                                booking implemented the features like driver rating, ride status and user wallet
+                                details.
+                            </p>
+                        </div>
+                        <!-- <div class="card-body card-p">
+                            <div class="row">
+                                <div class="col col-xs-4 ">
+                                    <i class="far fa-comments"></i> 1.1k
+                                </div>
+                                <div class="col col-xs-4 ">
+                                    <i class="far fa-heart"></i> 108
+                                </div>
+                                <div class="col col-xs-4">
+                                    <i class="fas fa-share"></i> 629
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <a name="contact">
+        <div class="contact">
+            <h2 class="text-center" style="padding-top: 15px;">Let's stay in touch</h2>
+            <link href="://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet"
+                id="bootstrap-css">
+            <script src="://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+            <script src="://code.jquery.com/jquery-1.11.1.min.js"></script>
+            <!------ Include the above in your HEAD tag ---------->
+
+            <div class="container">
+                <!-- <div class="row"> -->
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" action="" method="post">
+                            <!-- Name input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="name">Name</label>
+                                <div class="col-md-9">
+                                    <input id="name" name="name" type="text" placeholder="Your name"
+                                        class="form-control" style="color: #fff; background-color: rgba(0,0,0,0.5);">
+                                </div>
+                            </div>
+
+                            <!-- Email input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                                <div class="col-md-9">
+                                    <input id="email" name="email" type="text" placeholder="Your email"
+                                        class="form-control" style="color: #fff; background-color: rgba(0,0,0,0.5);">
+                                </div>
+                            </div>
+
+                            <!-- Message body -->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="message">Your message</label>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" id="message" name="message"
+                                        placeholder="Please enter your message here..." rows="5"
+                                        style="color: #fff; background-color: rgba(0,0,0,0.5);"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Form actions -->
+                            <div class="form-group" style="padding-bottom: 20px;">
+                                <div class="col-md-12 text-right">
+                                    <button type="submit" class="btn btn-dark btn-lg">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+
+        </div>
+    </a>
+
+    <div class="sayhello " id="hello ">
+        <div class="row ">
+            <div class="madewithlove ">
+                <p>
+                    <b>No <i class="fa fa-copyright " style="padding-top: 2px; padding-bottom: 25px;"></i> copyright
+                        issues.</b><br> Feel free to copy. If you need any help, ping me !
+                </p>
+            </div>
+            <div class="madewithlove ">
+                <p class="footTitle alignCenter ">
+                    Sumanth Keshav
+                </p>
+                <p class="madewithlove " style="padding-bottom: 15px;">
+                    Made with <i class="fa fa-heart "></i> in India
+                </p>
+            </div>
+            <div class="madewithlove ">
+                <p class="alignCenter " style="padding: 2px; padding-bottom: 15px;">
+                    You can find me everywhere
+                </p>
+                <ul class="tools ">
+                    <li><a href="#" target="_blank "><i class="fa fa-facebook-official "></i></a></li>
+                    <li><a href="#" target="_blank "><i class="fa fa-linkedin-square "></i></a></li>
+                    <li><a href="#" target="_blank "><i class="fa fa-envelope-o "></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <img class="footer-image " style="width: 65vw; " src="img/159873964439334966.png ">
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
